@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZLF_TEST_DPC_EXT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Provider Secondary Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SVC_MA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Containing the public service methods of a service manager</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_TRA_MA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface of the standalone transaction manager</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEW_HDR_ID</CMPNAME>
+     <SCONAME>RV_VALUE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field Length = 10</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
